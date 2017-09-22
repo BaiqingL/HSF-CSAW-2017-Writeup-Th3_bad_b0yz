@@ -4,7 +4,7 @@ Again, Linux has the command line utility mount to mount things. Let's do that s
 Run the command "mkdir CTF && mount fat.fs CTF/"
 There we go! Let's go in and see what we find.
 
-![examine](/Herbert/File\ Carve/examine.png?raw=true)
+![examine](/Herbert/File Carve/examine.png)
 
 Woah the flag.txt is right there, let's open it up now. The flag is:
 flag{m4ybe_file_carve_next}
