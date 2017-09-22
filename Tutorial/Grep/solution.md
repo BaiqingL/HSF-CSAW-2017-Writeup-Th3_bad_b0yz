@@ -5,6 +5,7 @@ On Linux, a command line utility allows you to do that, you can combine strings 
 code:
 strings files.zip | grep flag
 
-![grep_solution](https://github.com/VBQL/HSF-CSAW-2017-Writeup-Th3_bad_b0yz/Writeups/Tutorial/Grep/solution.png)
+![grep_solution](/Writeups/Tutorial/Grep/solution.png?raw=true)
 
 The flag is:
+flag{its_gnu_linux_to_y0u}
