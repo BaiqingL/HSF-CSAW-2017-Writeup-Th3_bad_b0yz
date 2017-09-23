@@ -8,6 +8,8 @@ Once you find the file let's examine the internals.
 ![Mount_Image](/Herbert/Places/examine.png?raw=true)
 
 As we can see it seems like a pretty normal places.sqlite file for firefox, so let's run a SQL command to extract the information about history.
+
+
 SELECT datetime(moz_historyvisits.visit_date/1000000, 'unixepoch', 'localtime'), moz_places.url FROM moz_places, moz_historyvisits WHERE moz_places.id = moz_historyvisits.place_id;
 
 Once we get the results, export the file and see what we have.
